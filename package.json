@@ -1,0 +1,33 @@
+{
+  "name": "tree-cutting-request",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.9.0",
+    "@supabase/ssr": "^0.1.0",
+    "@supabase/supabase-js": "^2.39.7",
+    "date-fns": "^3.3.1",
+    "lucide-react": "^0.344.0",
+    "next": "^14.1.0",
+    "react": "^18.3.1",
+    "react-datepicker": "^6.2.0",
+    "react-dom": "^18.3.1",
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "@types/react": "^18.3.5",
+    "@types/react-datepicker": "^6.0.1",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3"
+  }
+}
